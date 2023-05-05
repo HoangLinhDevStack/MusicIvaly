@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff;
+    --border-player: #000;
+    --purple-primary: #9b4de0;
+    --border-player: hsla(0,0%,100%,0.1);
+    --word-color: rgba(222, 223, 222, 1);
+    --invisible-background: rgba(0, 0, 0, 0);
+    --play-color: #130c1c;
+    --backroundlayer-color: #2f2739;
+    --border-playlist: rgba(255, 255, 255, 0.333)
+}
+
+svg {
+    display: block;
+    padding-left: 12.5px;
+    margin-right: -1.3rem;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x:hidden;
+    background-color: aliceblue;
+}
+
+.padding-3px {
+    padding: 3px;
+}
+
+.padding-0-59px {
+    padding: 0 59px;
+}
+
+.margin-left-10px {
+    margin-left: 10px;
+}
+
+.margin-right-10px {
+    margin-right: 10px;
+} 
+
+.margin-0-2px {
+    margin: 0 2px;
+}
+
+.margin-0-7px {
+    margin: 0 7px;
+}
+
+.margin-top-10px {
+    margin-top: 10px!important;
+}
+
+.cross {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divide {
+    height: 33px;
+    width: 1px;
+    background-color: var(--border-player);
+    margin: 0 20px;
+}
+
+.animation__egg {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);;
+    border-radius: 40% 60% 53% 47% / 58% 57% 43% 42% ;
+    animation: eggAnimating 5s ease-in-out infinite alternate;
+}
+
+@keyframes eggAnimating {
+    0% {
+        border-radius: 67% 33% 35% 65% / 67% 41% 59% 33%  ;
+    }
+    
+    100% {
+        border-radius: 34% 66% 68% 32% / 77% 73% 27% 23%  ;
+
+    }
+}
+
+.active {
+    
+}
